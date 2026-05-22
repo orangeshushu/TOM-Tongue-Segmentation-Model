@@ -30,7 +30,7 @@
 
 | 文件 | 大小 |
 |---|---|
-| `TOM舌象分割工具.exe` | 565 MB |
+| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB |
 
 双击运行后，在安装向导中选择：
 - **语言**：中文 / English（界面语言可在安装后随时切换）
@@ -102,7 +102,7 @@ Download the latest installer from the [**Releases**](../../releases) page:
 
 | File | Size |
 |---|---|
-| `TOM舌象分割工具.exe` | 565 MB |
+| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB |
 
 Double-click to run. The installer wizard lets you choose:
 - **Language**: 中文 / English (UI language can be switched anytime after install)
