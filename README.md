@@ -3,7 +3,7 @@
 > AI 驱动的中医舌象智能分割工具 · AI-powered tongue segmentation for TCM research
 
 [![Release](https://img.shields.io/github/v/release/orangeshushu/TOM-Tongue-Segmentation-Model)](../../releases)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)](../../releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](../../releases)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **[🇨🇳 中文](#-中文版) · [🇺🇸 English](#-english)**
@@ -28,16 +28,19 @@
 
 从 [**Releases**](../../releases) 页面下载最新版安装程序：
 
-| 文件 | 大小 |
-|---|---|
-| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB |
+| 文件 | 大小 | 平台 |
+|---|---|---|
+| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB | Windows 10 / 11（64 位） |
+| `TOM-Tongue-Segmentation-v3.2.0-arm64.dmg` | 354 MB | macOS 11+（Apple Silicon） |
 
-双击运行后，在安装向导中选择：
+**Windows**：双击 `.exe` 运行安装向导，可选择：
 - **语言**：中文 / English（界面语言可在安装后随时切换）
 - **安装位置**：默认 `%LOCALAPPDATA%\Programs\TOM舌象分割工具\`
 - **桌面快捷方式**：是否创建
 
 安装完成后从开始菜单或桌面快捷方式启动。
+
+**macOS**：双击 `.dmg` 挂载，将 `TOM Tongue Segmentation.app` 拖入 `Applications` 文件夹即可。首次启动时由于未经 Apple 公证，可能提示「无法验证开发者」——请在 `Applications` 中**右键点击应用 → 选择「打开」→ 在弹窗中再次点「打开」**即可正常运行，之后双击启动不再提示。
 
 ### 🚀 使用方法
 
@@ -75,10 +78,10 @@
 
 ### 📋 系统要求
 
-- **操作系统**：Windows 10 / 11（64 位）
+- **操作系统**：Windows 10 / 11（64 位）· macOS 11 Big Sur 或更高（Apple Silicon，M1/M2/M3/M4）
 - **内存**：4 GB RAM 以上（推荐 8 GB）
 - **磁盘空间**：约 1.5 GB
-- **显卡**：可选 GPU 加速（CPU 也能正常运行）
+- **加速**：Windows 可选 GPU 加速 · macOS 自动启用 Apple MPS 加速（CPU 也能正常运行）
 
 ---
 
@@ -100,16 +103,19 @@ A desktop tongue-segmentation tool for TCM research and clinical use. Automatica
 
 Download the latest installer from the [**Releases**](../../releases) page:
 
-| File | Size |
-|---|---|
-| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB |
+| File | Size | Platform |
+|---|---|---|
+| `TOM-Tongue-Segmentation-v3.2.0.exe` | 565 MB | Windows 10 / 11 (64-bit) |
+| `TOM-Tongue-Segmentation-v3.2.0-arm64.dmg` | 354 MB | macOS 11+ (Apple Silicon) |
 
-Double-click to run. The installer wizard lets you choose:
+**Windows**: Double-click the `.exe` to run the installer wizard, which lets you choose:
 - **Language**: 中文 / English (UI language can be switched anytime after install)
 - **Install location**: defaults to `%LOCALAPPDATA%\Programs\TOM Tongue Segmentation\`
 - **Desktop shortcut**: yes / no
 
 Launch from the Start menu or desktop shortcut after install.
+
+**macOS**: Double-click the `.dmg` to mount it, then drag `TOM Tongue Segmentation.app` into the `Applications` folder. Because the bundle is not Apple-notarized, the first launch may show *"cannot be verified"*. To get past it, **right-click the app in `Applications` → Open → Open** in the confirmation dialog. After that first launch, double-clicking works normally.
 
 ### 🚀 How to Use
 
@@ -147,10 +153,10 @@ Click the **EN / 中** button at the top-right to toggle between English and Chi
 
 ### 📋 System Requirements
 
-- **OS**: Windows 10 / 11 (64-bit)
+- **OS**: Windows 10 / 11 (64-bit) · macOS 11 Big Sur or newer (Apple Silicon, M1/M2/M3/M4)
 - **RAM**: 4 GB or more (8 GB recommended)
 - **Disk**: ~1.5 GB
-- **GPU**: Optional — runs on CPU too
+- **Acceleration**: Optional GPU on Windows · Apple MPS used automatically on macOS (CPU also works)
 
 ---
 
