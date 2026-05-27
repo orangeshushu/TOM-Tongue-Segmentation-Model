@@ -2,6 +2,10 @@
 
 > AI 驱动的中医舌象智能分割工具 · AI-powered tongue segmentation for TCM research
 
+<p align="center">
+  <img src="docs/assets/icon.png" alt="TOM app icon" width="128">
+</p>
+
 [![Release](https://img.shields.io/github/v/release/orangeshushu/TOM-Tongue-Segmentation-Model)](../../releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](../../releases)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
